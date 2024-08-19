@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sankofa+Display&display=swap');
+
+:root{
+    --color-primario:#0a3871;
+    --color-secundario-blanco:#ffffff;
+    --color-terciario-gray400:#495057;
+    --color-cuaternario-gray500:#343a40;
+    --negroni:#0C0C0C;
+    --marroni:#481E14;
+    --bronceoni:#9B3922;
+    --naranjoni:#F2613F;
+
+        --fuente-1: 'inter',sans-serif;
+        --fuente-2: 'monserrat',sans-serif;
+        --fuente-3: 'Krona One', sans-serif;
+        --fuente-4:  'Roboto Condensed',sans-serif;
+}
+html{
+    font-size: 62,5;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--negroni);
+    font-family: var(--fuente-4);
+    box-sizing: border-box;
+    max-width: 1440px;
+    width: 100%;
+    max-height:1024px;
+    height: 100%;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.contenedor_logo_alura{
+    width: 3rem;
+    padding-top: 2.5rem;
+    margin-left: 2rem;
+}
+.imagen_logo_alura{
+    width: 32px;
+    height: 48px;
+    filter: sepia(1);
+}
+main{
+    display: flex;
+    justify-content:space-around;
+}
+.contenedor_texto_ingresado{
+  /* contiene los 3 elementos de la columna a //////////////////////////   */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85dvh;
+    max-width: 42.5rem;
+    width:100%;
+    background-color:transparent;
+}   
+/* //////el text area 1 ///// */
+.recibe_texto{
+    width:auto;
+    height: 50dvh;
+    border-color: transparent;
+    background: transparent;
+    outline: none;
+    font-size: 3.2rem;
+    font-family: var(--fuente-4);
+    font-weight: 400;
+    line-height: 150%;
+    color:var(--naranjoni);
+    text-transform: lowercase;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    overflow: auto;
+}
+textarea {
+    resize: none;
+  }
+::placeholder{
+    font-size: 3.2rem;
+    font-family: var(--fuente-4);
+    color:var(--color-terciario-gray400);
+}
+.informacion_alerta{
+    color: var(--naranjoni);
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+/* botones////////////////////////////////////////////////////// */
+.botones{
+    display: flex;
+    margin-top: 18px;
+}  
+.contenedor_boton_copiar{
+    width: 100%;
+}
+.btn-desencriptar{
+    background-color:var(--naranjoni);
+    color:var(--negroni);
+    width: 328px;
+    height: 67px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: 1px solid var(--color-terciario-gray400);
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.btn-desencriptar:hover {
+    background-color:#343a40;
+    color: #ffffff;
+}
+.btn-encriptar{
+    background-color:#343a40;
+    color: var(--color-secundario-blanco);
+    width: 328px;
+    height: 67px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: 1px solid var(--color-cuaternario-gray400);
+    border-radius: 24px;
+    cursor: pointer;
+}
+.btn-encriptar:hover {
+    background-color:var(--naranjoni);
+    color: #0C0C0C;
+}
+.btn-copiar{
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: var(--color-cuaternario-gray500);
+    border: 1px solid var(--color-secundario-blanco);
+    border-radius: 24px;
+    color:var(--color-quintario-desencriptar1);
+    cursor: pointer;
+    height: 67px;
+    width:90%;
+    margin: 1rem;
+}
+.btn-copiar:hover{
+    background-color:var(--naranjoni);
+    color: var(--color-cuaternario-gray400);
+}
+/* ////////boton copiar que se activara con javascript,cuando reciba texto//////// */
+.btn-copiar{
+    display: none;
+}
+/* //////////el segundo campo donde se recibe el mensaje encrip o desencript ///////// */
+
+/* //////todo el aside/////// */
+.resultado{
+    background-color:var(--bronceoni);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 85dvh;
+    border-radius: 32px;
+    max-width: 26rem;
+    width:100%;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+/* ////////el text area dentro del aside//////////// */
+
+.texto_encrip_desencrip{
+    background-color:transparent;
+    background-image: url("assets/Muñeco.png");
+    filter: sepia(1);
+    filter:invert(100%);
+    background-position:bottom center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color:var(--negroni);
+    margin-top: 0.5px;
+    font-size: 3.2rem;
+    font-family: var(--fuente-4);
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: lowercase;
+    height: 44rem;
+    width: 100%;
+}
+::placeholder{
+    font-size: 3.2rem;
+    font-family: var(--fuente-4);
+    color:var(--color-terciario-gray400);
+}
+.resultado_container{
+    text-align: center;
+    font-size: 1.5rem;
+    width: 90%;
+}
+.footer_contenedor{
+    color: var(--naranjoni);
+    width: 100%;
+    background-color:transparent;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin: 0;
+    height: 4rem;
+    margin-left: 0%;
+    border-top: 1px solid var(--naranjoni)
+}
+.enlaces{
+    display: flex;
+    align-items: center;
+}
+.linkedin{
+    width: 2rem;
+    margin: 1rem;
+    filter:invert(100%);
+}
+.github{
+    width: 2rem;
+    margin-bottom: 0%;
+    filter:invert(100%);
+}
+
+/* //////////////            ////////     medida tablet /////////////////////// */
+
+@media screen and (max-width:768px)  {
+
+    body{
+        width: 100%;
+        max-height: 1174px;
+        height: auto;
+    }
+    main{
+        flex-direction: column;
+        margin:2rem;
+        /* margin-right: 2rem; */
+    }
+    .contenedor_logo_alura{
+        margin-left: 0%;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .contenedor_texto_ingresado{
+        height: 40rem;
+        margin: 0;
+        max-width:none;
+        width:100%;
+    }
+    .recibe_texto{
+        height: auto;
+        margin-top: 0%;
+    }
+    /* ////////textarea 2////////// */
+    .texto_encrip_desencrip{
+        display: none;
+        height: auto;
+    }
+     .resultado{
+        margin:0%;
+        margin-top: 2rem;
+        max-width: 100%;
+        width: auto;
+        width:100%;
+        height: auto;
+    }
+    .info_mas_botones{
+        width: 100%;
+    }
+    .botones{
+        justify-content: center;
+    }
+    /* ////////footer tablet /////// */
+    .footer_contenedor{
+        margin-top: 2rem;
+        width: 100%;
+        margin-bottom: 0%;
+    }
+    .desarrollado_por{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* //////////////            ////////     medida celular      /////////////////////// */
+
+@media (max-width: 375px){
+
+    body{
+        width: 100%;
+    }
+    .contenedor_logo_alura{
+        padding-top: 0%;
+    }
+    .contenedor_texto_ingresado{
+        width: 100%;
+    }
+    .info_mas_botones{
+        width:auto;
+        height: auto;
+    }
+    .botones{
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .btn-encriptar{
+        width: 100%;
+    }
+    .btn-desencriptar{
+        margin-left: 0%;
+        width:100%;
+    }
+     .resultado{
+        width: 100%;
+     }
+
+    .footer_contenedor{
+        flex-direction: column;
+        height: auto;
+        padding-top:1rem;
+        margin: 0%;
+    }
+}
+/* //////////////////////// medida PC escritorio,pantallas mas grandes//// */
+
+@media (min-width: 1440px){
+    body{
+        max-width:none;
+        width: 100%;
+    }
+}
+    /* /////// Muchas gracias equipo Alura Latam & Oracle /////////
+
+          ////////////    Alan Veron     //////////
+          //////////////    2024     ///////////// */
