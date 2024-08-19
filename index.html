@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador de texto alan veron</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header></header>    
+
+    <main>
+        <div class="contenedor_logo_alura">
+            <img src="assets/Vector.png" alt="logo-alura" class="imagen_logo_alura">
+        </div>
+       
+        <div class="contenedor_texto_ingresado">
+            <textarea class="recibe_texto" name="recibe_texto" id="recibe_texto_texto" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            
+            <div class="info_mas_botones"> 
+                <div class="informacion_alerta">
+                    <img src="assets/exclam.png" alt="xxx">
+                    <span>Solo letras minusculas y sin acentos</span>
+                </div>
+        
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </div>
+         </div>
+
+        <aside class="resultado ">
+            
+            <textarea class="texto_encrip_desencrip"  name="texto_encrip_desencrip" id="texto_encrip_desencrip"></textarea>
+            
+            <div class="resultado_container" id="div_texto_caja2">
+                <h2 class="resultado_no_texto">Ningún mensaje fue encontrado</h2>
+                <p class="resultado_ingrese_descripcion">Ingrese el texto que desea encriptar o desencriptar</p>
+            </div>
+
+            <div class="contenedor_boton_copiar"  onclick="btnCopiar()">
+                <button class="btn-copiar"  id="btn_copiar_id">Copiar</button>
+            </div>
+            
+        </aside>
+    </main>
+
+    <footer class="footer_contenedor">
+
+        <div class="desarrollado_por">
+            Desarrollado por Alan Veron 2024
+        </div>
+
+        <div class="enlaces">
+            <div>
+                <a href="https://www.linkedin.com/in/alan-veron-7b22b5264/">
+                <img class="linkedin" src="assets/logotipo-de-linkedin.png" alt="linkedin">
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/AlanVeron">
+                <img class="github"  src="assets/github.png" alt="github">
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
