@@ -46,8 +46,10 @@ PC escritorio:
 ![escritorio-texto-desencriptado](https://github.com/user-attachments/assets/e84a7b24-fd8d-409e-90b6-e0ed21a8f973)
 
 Tablet:
-![principal-tablet](https://github.com/user-attachments/assets/0d5ec946-f642-45fd-b532-eec290788bcd)
-![tablet-encriptado](https://github.com/user-attachments/assets/8b501915-a543-421e-bcdf-d83c5fdc9047)
+![1 app](https://github.com/user-attachments/assets/ec48a55a-b15a-4902-a63b-b79a5599ab51)
+![2 app](https://github.com/user-attachments/assets/857d80b4-05e4-429a-8116-af717ab095c2)
+![3 app](https://github.com/user-attachments/assets/041726ae-06c9-44ed-a351-52e2887fa8c5)
+
 
 Celular:
 
