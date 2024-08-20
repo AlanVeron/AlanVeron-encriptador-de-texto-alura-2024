@@ -12,7 +12,7 @@ Descripción
 
 ## :hammer:Funcionalidades del proyecto
 
-- `Funcionalidad 1`:Esta aplicacion es un encriptador de textos que funciona mediante "llaves" de encriptacion que son las siguientes:
+`Funcionalidad 1`:Esta aplicacion es un encriptador de textos que funciona mediante "llaves" de encriptacion que son las siguientes:
 (para cada letra que detecte ,será convertida a una cadena de caracteres:)
 Al apretar el boton Encriptar :
 
@@ -26,16 +26,16 @@ Por ejemplo:
 "gato" => "gaitober"
 
 
-- `Funcionalidad 2`: tambien puede hacer el proceso inverso,es decir,desencriptar :
+`Funcionalidad 2`: tambien puede hacer el proceso inverso,es decir,desencriptar :
 (para cada "cadena de caracteres" que detecte que este dentro de la "llave de encriptacion propuesta" devolverá su relativo en "letra"
 al apretar el boton Desencriptar :
 
 Por ejemplo:
 "gaitober" => "gato"
 
-- `Funcionalidad 3`: cuando Encriptamos/Desencriptamos un texto, en el segundo cuadro donde se muestra el mismo, se habilita un boton para "copiar".
+`Funcionalidad 3`: cuando Encriptamos/Desencriptamos un texto, en el segundo cuadro donde se muestra el mismo, se habilita un boton para "copiar".
 
-- `Funcionalidad 4 y requisito`:La aplicacion Debe funcionar solo con letras minúsculas,dentro de su codigo tiene un "toLowerCase" que lo hace posible, y no admite "caracteres especiales",si se ingresan los mismos,saldrá un alert con error y no dejará continuar con su funcionamiento.
+`Funcionalidad 4 y requisito`:La aplicacion Debe funcionar solo con letras minúsculas,dentro de su codigo tiene un "toLowerCase" que lo hace posible, y no admite "caracteres especiales",si se ingresan los mismos,saldrá un alert con error y no dejará continuar con su funcionamiento.
 
 <li>Alan Veron 2024</li>
 
