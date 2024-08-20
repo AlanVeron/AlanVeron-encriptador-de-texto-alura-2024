@@ -35,5 +35,7 @@ Por ejemplo:
 
 - `Funcionalidad 3`: cuando Encriptamos/Desencriptamos un texto, en el segundo cuadro donde se muestra el mismo, se habilita un boton para "copiar".
 
+- `Funcionalidad 4 y requisito`:La aplicacion Debe funcionar solo con letras minúsculas,dentro de su codigo tiene un "toLowerCase" que lo hace posible, y no admite "caracteres especiales",si se ingresan los mismos,saldrá un alert con error y no dejará continuar con su funcionamiento.
+
 <li>Alan Veron 2024</li>
 
