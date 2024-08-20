@@ -57,8 +57,10 @@ Tablet:
 Celular:
 
 
-![1](https://github.com/user-attachments/assets/b3a92f62-b5bb-4432-a282-0294b779465b)
-![2](https://github.com/user-attachments/assets/1e4cc7e5-92b2-4c49-a263-e0016016f5b6)
+![1](https://github.com/user-attachments/assets/8d668720-4985-4b1e-8545-632cb24480c6)
+![2](https://github.com/user-attachments/assets/d8047865-ef36-4cbd-a9d0-6ea6ddbfca46)
+
+
 
 
 
