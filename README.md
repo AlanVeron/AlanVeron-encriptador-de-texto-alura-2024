@@ -37,5 +37,16 @@ Por ejemplo:
 
 `Funcionalidad 4 y requisito`:La aplicacion Debe funcionar solo con letras minúsculas,dentro de su codigo tiene un "toLowerCase" que lo hace posible, y no admite "caracteres especiales",si se ingresan los mismos,saldrá un alert con error y no dejará continuar con su funcionamiento.
 
+recorriendo las distintas vistas Escritorio,Tablet y celular
+
+PC escritorio:
+![escritorio-principal](https://github.com/user-attachments/assets/b2d77c6a-1906-48e8-8308-8599b4314995)
+![escritorio-ingresa-texto](https://github.com/user-attachments/assets/6c5ba0d0-8f57-4471-919f-79f8aba8e975)
+![escritorio-texto-encripado](https://github.com/user-attachments/assets/9c4c8aad-9fd9-40b8-aa03-52b3b3931897)
+![escritorio-texto-desencriptado](https://github.com/user-attachments/assets/e84a7b24-fd8d-409e-90b6-e0ed21a8f973)
+
+
+
+
 <li>Alan Veron 2024</li>
 
