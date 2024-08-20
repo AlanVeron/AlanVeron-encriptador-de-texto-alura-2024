@@ -5,6 +5,8 @@
 
 ![im-principal-escritorio-encriptador](https://github.com/user-attachments/assets/a98f5817-976f-41d8-9fc0-ae4fca19916e)
 
+---
+
 
 Descripción
 
@@ -36,6 +38,7 @@ Por ejemplo:
 `Funcionalidad 3`: cuando Encriptamos/Desencriptamos un texto, en el segundo cuadro donde se muestra el mismo, se habilita un boton para "copiar".
 
 `Funcionalidad 4 y requisito`:La aplicacion Debe funcionar solo con letras minúsculas,dentro de su codigo tiene un "toLowerCase" que lo hace posible, y no admite "caracteres especiales",si se ingresan los mismos,saldrá un alert con error y no dejará continuar con su funcionamiento.
+---
 
 recorriendo las distintas vistas Escritorio,Tablet y celular
 
