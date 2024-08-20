@@ -6,9 +6,22 @@ let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufa
 
 const caja1 = document.getElementById('recibe_texto_texto');
 const caja2= document.getElementById('texto_encrip_desencrip');
+const SPECIAL_CHARACTERS = /[!@#$%^&*(),.?":{}|<>[\]\\\/'`~\-+=_;]/g;
+
+function validarTexto(caja1) {
+    if (SPECIAL_CHARACTERS.test(caja1)) {
+        alert('No se aceptan caracteres especiales.');
+    return false;
+    } else {
+    return true;
+    }
+}
 
 
 function encriptar(textoEncriptado){
+    if(!validarTexto(textoEncriptado)){
+        return null;
+    }    
     let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     textoEncriptado=textoEncriptado.toLowerCase()
 
@@ -34,6 +47,9 @@ function btnCopiar(){
     navigator.clipboard.writeText(caja2.value);
 } 
 function desencriptar(textoDesencriptado){
+    if(!validarTexto(textoDesencriptado)){
+        return null;
+    }
     let matrizCodigo = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
     textoDesencriptado=textoDesencriptado.toLowerCase()
 
