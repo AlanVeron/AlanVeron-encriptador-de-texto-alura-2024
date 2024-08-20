@@ -45,6 +45,14 @@ PC escritorio:
 ![escritorio-texto-encripado](https://github.com/user-attachments/assets/9c4c8aad-9fd9-40b8-aa03-52b3b3931897)
 ![escritorio-texto-desencriptado](https://github.com/user-attachments/assets/e84a7b24-fd8d-409e-90b6-e0ed21a8f973)
 
+Tablet:
+![principal-tablet](https://github.com/user-attachments/assets/0d5ec946-f642-45fd-b532-eec290788bcd)
+![tablet-encriptado](https://github.com/user-attachments/assets/8b501915-a543-421e-bcdf-d83c5fdc9047)
+
+Celular:
+
+
+
 
 
 
