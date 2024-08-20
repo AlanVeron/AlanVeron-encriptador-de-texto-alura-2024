@@ -14,7 +14,7 @@ Descripción
 
 - `Funcionalidad 1`:Esta aplicacion es un encriptador de textos que funciona mediante "llaves" de encriptacion que son las siguientes:
 (para cada letra que detecte ,será convertida a una cadena de caracteres:)
-<li>Al apretar el boton Encriptar :</li>
+Al apretar el boton Encriptar :
 
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
@@ -28,7 +28,7 @@ Por ejemplo:
 
 - `Funcionalidad 2`: tambien puede hacer el proceso inverso,es decir,desencriptar :
 (para cada "cadena de caracteres" que detecte que este dentro de la "llave de encriptacion propuesta" devolverá su relativo en "letra"
-<li>al apretar el boton Desencriptar :</li>
+al apretar el boton Desencriptar :
 
 Por ejemplo:
 "gaitober" => "gato"
