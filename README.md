@@ -65,8 +65,10 @@ Celular:
 
 
 
-
-
+`🚀` tecnologias utilizadas:
+*html
+*css
+*Javascript
 
 
 <li>Alan Veron 2024</li>
