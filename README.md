@@ -63,12 +63,19 @@ Celular:
 
 
 
-
+---
 
 ### Tecnologías utilizadas:
 - 🛠️ **HTML**
 - 🎨 **CSS**
 - 🚀 **JavaScript**
+
+---
+
+### 💻 **Gracias a Alura LATAM y a Oracle** 🙌
+Por ser una plataforma educativa excepcional, llena de cursos que ayudan a convertir ideas en realidad. Gracias por la dedicación y el esfuerzo que ponen en cada curso.
+
+---
 
 
 <li>Alan Veron 2024</li>
