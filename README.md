@@ -10,5 +10,12 @@ Descripción
 
 <strong> Encriptador de texto-Alura  </strong> es una aplicaion que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
+## :hammer:Funcionalidades del proyecto
+
+- `Funcionalidad 1`: descripción de la funcionalidad 1-
+- `Funcionalidad 2`: descripción de la funcionalidad 2-
+- `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2-
+- `Funcionalidad 3`: descripción de la funcionalidad 3
+
 <li>Alan Veron 2024</li>
 
